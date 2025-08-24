@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-display: swap;
+}
+
+*{
+font-family: 'Montserrat', Times, serif;
+}
+
+
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: #2254c4;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    gap: 50px;
+}
+
+.navHeader{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.navHeader a {
+    width: auto;
+    font-size: 25px;
+    color: white;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+figure img{
+    width: 50%;
+}
+
+main{
+    width: 100%;
+    background-color: #ffff;
+    color: #2254c4;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    font-size: 32px;
+    padding: 25px;
+}
+
+section{  
+    width: 80%; 
+    padding-left: 5%;
+    background-color: #2254c4;
+    height: auto;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 5px solid #2254c4;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.layer1{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    border: 5px solid #2254c4;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.layer1 img{
+    position: relative;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.layer2{
+    background-color: #2254c4;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.layer2 img{
+    position: relative;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.layer3{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    border: 5px solid #2254c4;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.layer3 img{
+    position: relative;
+    width: 50%;
+    border-radius: 10px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    align-items: baseline;
+    color: white;
+}
+
+footer figure{
+    align-self: center;
+}
+
+.redesSociais {
+    padding: 25px;
+}
+
+.redesSociais div{
+    padding-left: 10px;
+    width: 20%;
+    
+}
+
+.redesSociais img{
+    width: 50%;
+}
+
+.contato{
+    padding: 25px;
+}
+
+.contato div {
+    padding-left: 10px;
+    width: 20%;
+}
